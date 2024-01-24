@@ -139,7 +139,7 @@ func InstancePod(ctx context.Context,
 		ReadOnly:  true,
 	})
 
-	instanceProbes(inCluster, container)
+	// instanceProbes(inCluster, container)
 
 	return nil
 }
